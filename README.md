@@ -19,3 +19,11 @@ npm install -g hotnode
 hotnode bin/www
 
 npm install --save-dev pm2
+
+npm install --save express-handlebars html-minifier js-yaml lodash mysql oauth stylus
+npm install --save-dev bower chai
+npm install --save-dev gulp-eslint
+npm install --save-dev gulp gulp-mocha
+npm install --save-dev guppy-pre-push
+npm install --save-dev mocha rewire sinon
+

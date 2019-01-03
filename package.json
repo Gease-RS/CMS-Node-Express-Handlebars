@@ -1,19 +1,27 @@
 {
   "name": "cms-node-express-handlebars",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
+  "version": "0.0.1",
   "dependencies": {
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
+    "express-handlebars": "^3.0.0",
+    "html-minifier": "^3.5.21",
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
-    "morgan": "~1.9.0"
+    "js-yaml": "^3.12.0",
+    "lodash": "^4.17.11",
+    "morgan": "~1.9.0",
+    "mysql": "^2.16.0",
+    "oauth": "^0.9.15",
+    "stylus": "^0.54.5"
   },
   "devDependencies": {
-    "pm2": "^3.2.4"
+    "gulp-eslint": "^5.0.0",
+    "guppy-pre-push": "^0.2.1",
+    "mocha": "^5.2.0",
+    "pm2": "^3.2.4",
+    "rewire": "^4.0.1",
+    "sinon": "^7.2.2"
   }
 }
