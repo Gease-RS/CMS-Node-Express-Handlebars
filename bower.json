@@ -1,0 +1,10 @@
+{
+    "name": "CMS-Node-Express-Handlebars",
+    "version": "0.0.1",
+    "author": "Gease Oliveira da Rosa",
+    "license": "MIT",
+    "dependencies": {
+        "font-awesome": "*",
+        "normalize-css": "*"
+    }
+}
